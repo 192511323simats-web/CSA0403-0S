@@ -1,0 +1,8 @@
+uname -a
+cat /etc/os-release
+ps aux
+free -h
+cat /proc/meminfo
+ls /sys/class
+findmnt
+getent passwd portal

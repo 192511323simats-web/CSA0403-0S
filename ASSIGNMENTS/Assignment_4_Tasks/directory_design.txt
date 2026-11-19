@@ -1,0 +1,4 @@
+/students/<register-number>/{documents,assignments,submissions}
+/courses/<course-code>/<semester>
+/projects/<project-id>
+Permissions: private student home 0700; private files 0600; controlled course group read; project ACLs for named members. Backups: daily incremental + weekly full, versioned off-site copy.

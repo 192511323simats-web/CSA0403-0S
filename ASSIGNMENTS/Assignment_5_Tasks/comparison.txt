@@ -1,0 +1,4 @@
+Type 1: KVM, ESXi, Xen, Hyper-V; runs on/near hardware and is appropriate for production consolidation.
+Type 2: VirtualBox, VMware Workstation; runs above a host OS and is useful for labs.
+VM: guest kernel per VM, stronger isolation boundary, more memory and startup overhead.
+Container: shared host kernel, namespaces/cgroups, fast start and lower memory footprint.

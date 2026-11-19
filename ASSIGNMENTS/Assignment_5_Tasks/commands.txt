@@ -1,0 +1,10 @@
+ps aux
+top
+free -h
+vmstat 1 5
+iostat -xz 1 5
+df -h
+ss -tulpn
+crontab -e
+# Hourly schedule:
+0 * * * * /absolute/path/to/log_summary.sh
